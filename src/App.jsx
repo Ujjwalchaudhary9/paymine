@@ -7,7 +7,8 @@ import Contactus from './Pages/Contactus'
 import Services from './Pages/Services'
 import Login from './Pages/Login'
 import Line from './Components/Line'
-import MPOS from './Pages/MPOS'
+import BBPS from './Pages/BBPS'
+// import MPOS from './Pages/MPOS'
 // import PANServices from './Pages/PANServices'
 // import ABES from './Pages/ABES'
 // import Software from './Pages/Android-App-Development'
@@ -28,7 +29,8 @@ const App = () => {
       {/* <RechargeSoftware/> */}
       {/* <ABES/> */}
       {/* <PANServices/> */}
-      <MPOS/>
+      {/* <MPOS/> */}
+      <BBPS/>
       <Services />
       <Line />
       <Aboutus />

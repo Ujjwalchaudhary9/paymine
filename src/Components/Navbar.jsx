@@ -10,8 +10,8 @@ const Navbar = () => {
 
     let links = [
         { link: "Home", path: "/", icon: <FaHome /> },
-        { link: "IT Solution", path: "/solution", icon: <FaPhoneAlt /> },
         { link: "Software", path: "/software", icon: <FaPhoneAlt /> },
+        { link: "API Solution", path: "/solution", icon: <FaPhoneAlt /> },
         { link: "Services", path: "/services", icon: <FaServicestack /> },
         { link: "About Us", path: "/about", icon: <FaInfoCircle /> },
         { link: "Contact Us", path: "/contact", icon: <FaPhoneAlt /> },
