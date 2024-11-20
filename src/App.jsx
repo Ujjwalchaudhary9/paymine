@@ -7,6 +7,11 @@ import Contactus from './Pages/Contactus'
 import Services from './Pages/Services'
 import Login from './Pages/Login'
 import Line from './Components/Line'
+import MPOS from './Pages/MPOS'
+// import PANServices from './Pages/PANServices'
+// import ABES from './Pages/ABES'
+// import Software from './Pages/Android-App-Development'
+// import RechargeSoftware from './Pages/Recharge-Software'
 const App = () => {
   return (
     <div>
@@ -19,6 +24,11 @@ const App = () => {
         <Route path="/services" element={<Services />} />
         <Route path="/login" element={<Login />} />
       </Routes>
+      {/* <Software/> */}
+      {/* <RechargeSoftware/> */}
+      {/* <ABES/> */}
+      {/* <PANServices/> */}
+      <MPOS/>
       <Services />
       <Line />
       <Aboutus />
