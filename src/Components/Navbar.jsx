@@ -59,7 +59,7 @@ const Navbar = () => {
             </div>
 
             {/* Mobile Navigation Links */}
-            <div className={`lg:hidden absolute z-10 top-20  right-0 w-[25%] bg-white shadow-lg transition-all ${menuOpen ? 'block' : 'hidden'}`}>
+            <div className={`z-30 lg:hidden absolute  top-20  right-0 w-[35%] bg-white shadow-lg transition-all ${menuOpen ? 'block' : 'hidden'}`}>
                 <ul className="space-y-4 p-4">
                     {links.map((link, index) => (
                         <li key={index}>
